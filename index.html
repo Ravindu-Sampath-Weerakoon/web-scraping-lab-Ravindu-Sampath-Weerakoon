@@ -1,4 +1,9 @@
 <form action="scrape" method="GET">
-  <input type="url" name="url" placeholder="Enter URL">
+  <input type="text" name="url" value="https://www.bbc.com/news" size="50"><br><br>
+  <input type="checkbox" name="option" value="title" checked> Title<br>
+  <input type="checkbox" name="option" value="headings"> Headings<br>
+  <input type="checkbox" name="option" value="links"> Links<br><br>
+  <input type="submit" value="Scrape">
+
   <button type="submit">Scrape</button>
 </form>
